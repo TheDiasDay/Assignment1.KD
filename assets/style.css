@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    line-height: 1.6;
+}
+
+.container{
+    width: 100%;
+    max-width: 1999px;
+    margin: 0 auto;
+}
+
+.intro{
+    background-image: url(nordwood-themes-kRNZiGKtz48-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.line{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navit{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 30px;
+    align-items: center;
+    transition: color 0.2s linear;
+    padding: 5px 10px;
+    border: 4px solid #000000;
+    border-radius: 15px;
+}
+.navit:hover{
+    color: rgb(255, 255, 255);
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.introdown{
+    text-align: center;
+    justify-content: center;
+}
+
+.introtitle{
+    margin-top: 100px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.introutit{
+    font-size: 30px;
+
+}
+
+.imgone{
+    background-image: url(11.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgtwo{
+    background-image: url(16yTS5pdEnv5f1837e728177_cover_lg_1x.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Onedecor{
+    float: left;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.One{
+    background-color: #a6db62;
+    border-top-right-radius: 10100% 100000%;
+    box-shadow: 10px 0px 40px 0px #00001A;
+    margin-top: -500px;
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+
+}
+
+.Onemini{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 200;
+    background-color: #888888;
+    padding-left: 80px;
+    padding-right: 20px;
+    border-bottom-right-radius: 10%;
+    box-shadow: 10px 0px 40px 0px #00001A;
+}
+
+li {
+    list-style-type: none;
+   }
+   li:before {
+    content: "▶ "; 
+   }
+
+.twodecor{
+    float: right;
+    width: 100%;
+    max-width: 1400px;
+    margin-top: 800px;
+   }
+
+.two{background-color: #a6db62;
+    border-top-left-radius: 10%;
+    box-shadow: 10px 0px 40px 0px #00001A;
+    margin-top: -500px;
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.twomini{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom-left-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.table{
+    border: #000000;
+    clear:both;  
+    border-collapse: collapse;
+    margin: -425px 0;
+    font-size: 70px;
+    border-radius: 20px 20px;
+    margin-bottom:50px;
+}
+.table thead tr{
+    background-color: #a6db62;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table th, table td{
+    padding: 12px 15px;
+}
+
+.ttext{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.buttext{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: bold;
+    background-color: #a6db62;
+    padding: 20px 50px;
+    border-radius: 40px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.button{
+    align-items: center;
+    text-align: center;
+    margin: 0% auto;
+    margin-bottom: 50px;
+}
+
+.imgmozg{
+    height: 200px;
+    width: 200px;
+    padding-left: 40px;
+}
+
+.logomozg{
+    display: block;
+}
+
+.logobudoo{
+    padding-left: 75px;
+    padding-top: 40px;
+    font-size: 40px;
+
+
+}
+
+.eot{
+    padding-left: 50px;
+    padding-top: 70px ;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+
+}
+
+.end{
+    margin: 0 auto;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: left;
+}
+
+hr{
+    margin: 70px;
+    display: flex;
+}
+
+.Copyright{
+    font-size: 15px;
+    font-weight: 100;
+    display: flex;  
+    color: #888888;
+    align-items: center;
+    display: flex;
+}
